@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Search for Movies</string>
+    <string name="batman">Batman</string>
+    <string name="devil">Devil</string>
+    <string name="mutanti">Mutanti</string>
+    <string name="xxx">XXX</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="detali">Детали</string>
 </resources>
