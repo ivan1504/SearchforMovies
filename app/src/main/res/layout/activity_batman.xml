@@ -41,6 +41,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="121dp"
         android:layout_marginBottom="208dp"
+        android:onClick="intenbatm"
         android:text="@string/invite"
         tools:layout_editor_absoluteX="133dp"
         tools:layout_editor_absoluteY="348dp" />

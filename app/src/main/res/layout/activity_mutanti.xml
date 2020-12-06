@@ -36,5 +36,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="118dp"
         android:layout_marginBottom="164dp"
+        android:onClick="intenmetan"
         android:text="@string/invite" />
 </RelativeLayout>
