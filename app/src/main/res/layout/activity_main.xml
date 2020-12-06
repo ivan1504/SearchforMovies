@@ -127,6 +127,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="233dp"
         android:layout_marginEnd="55dp"
+        android:onClick="buttondevil"
         android:text="@string/detali" />
 
     <Button
@@ -137,6 +138,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="50dp"
         android:layout_marginBottom="24dp"
+        android:onClick="buttonmutanti"
         android:text="@string/detali" />
 
     <Button
@@ -147,5 +149,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="27dp"
+        android:onClick="buttonxxx"
         android:text="@string/detali" />
 </RelativeLayout>
