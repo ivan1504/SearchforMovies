@@ -56,23 +56,11 @@ public class MainActivity extends AppCompatActivity {
     public void buttonbatman(View view) {
 
         tvbatman.setTextColor(Color.GREEN);
-    }
-
-    public void buttondevil(View view) {
-        tvdevil.setTextColor(Color.GREEN);
-    }
-
-    public void buttonmutanti(View view) {
-        tvmutanti.setTextColor(Color.GREEN);
-    }
-
-    public void buttonxxx(View view) {
-        tvxxx.setTextColor(Color.GREEN);
-
-        tvbatman.setTextColor(Color.GREEN);
-        Intent batman =new Intent(this,Batman.class);
+        Intent batman= new Intent(this,Batman.class);
         startActivity(batman);
     }
+
+
 
     public void buttondevil(View view) {
         tvdevil.setTextColor(Color.GREEN);
