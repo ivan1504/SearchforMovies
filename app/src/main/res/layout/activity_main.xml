@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <!-- <TextView
+
+  <!--  <TextView
         android:id="@+id/textbatman"
-        android:layout_width="323dp"
-        android:layout_height="673dp"
+        android:layout_width="94dp"
+        android:layout_height="38dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
         android:text="@string/batman"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,16 +22,16 @@
 
     <TextView
         android:id="@+id/textdevil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="83dp"
+        android:layout_height="35dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="79dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="68dp"
         android:text="@string/devil"
         android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="300dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -39,12 +40,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="58dp"
-        android:layout_marginBottom="221dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="236dp"
         android:text="@string/mutanti"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="325dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -53,12 +54,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="228dp"
         android:text="@string/xxx"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="300dp"
-        tools:layout_editor_absoluteY="325dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -66,12 +67,12 @@
         android:layout_width="142dp"
         android:layout_height="167dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/batman"
-        tools:layout_editor_absoluteY="56dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -80,7 +81,7 @@
         android:layout_height="225dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="16dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -96,8 +97,8 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/mutanti"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp" />
+        tools:layout_editor_absoluteX="5dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imagexxx"
@@ -105,12 +106,12 @@
         android:layout_height="120dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="92dp"
         android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/xxx"
-        tools:layout_editor_absoluteY="371dp"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -119,11 +120,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="328dp"
         android:onClick="buttonbatman"
         android:text="@string/detali"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="248dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttondevil"
@@ -131,11 +134,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="328dp"
         android:onClick="buttondevil"
         android:text="@string/detali"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="241dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonmutanti"
@@ -143,11 +148,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="24dp"
         android:onClick="buttonmutanti"
         android:text="@string/detali"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="530dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonxxx"
@@ -155,67 +162,71 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginBottom="24dp"
         android:onClick="buttonxxx"
         android:text="@string/detali"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="516dp" /> -->
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="300dp"
-        app:cardBackgroundColor="#A1C140"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="20dp"
-        app:cardPreventCornerOverlap="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="-1dp" >
+        tools:ignore="MissingConstraints" /> -->
 
-        <TextView
-            android:id="@+id/textbatman"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="4dp"
-            android:text="@string/batman"
-            android:textSize="24sp"
-             />
-    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
+        android:layout_margin="16dp"
         android:minHeight="300dp"
-        app:cardBackgroundColor="#A1C140"
-        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@android:color/holo_green_light"
+        app:cardCornerRadius="10dp"
         app:cardElevation="16dp"
         app:cardPreventCornerOverlap="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" >
-</androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="300dp"
-        app:cardBackgroundColor="#A1C140"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="16dp"
-        app:cardPreventCornerOverlap="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="604dp">
+        <TextView
+            android:id="@+id/textbatman"
+            android:layout_width="112dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/batman"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imagebatman"
+            android:layout_width="328dp"
+            android:layout_height="196dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="48dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/batman"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonbatman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:onClick="buttonbatman"
+            android:text="@string/detali"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
     </androidx.cardview.widget.CardView>
 
 

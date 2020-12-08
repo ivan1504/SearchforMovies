@@ -19,12 +19,13 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvxxx;
 
 
-  /*  @Override
+   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+   }
 
-        tvbatman=findViewById(R.id.textbatman);
+      /*  tvbatman=findViewById(R.id.textbatman);
         tvdevil=findViewById(R.id.textdevil);
         tvmutanti=findViewById(R.id.textmutanti);
         tvxxx=findViewById(R.id.textxxx);
