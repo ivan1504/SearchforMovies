@@ -11,10 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SearchForMovies">
-        <activity android:name=".XXX"></activity>
-        <activity android:name=".Mutanti" />
-        <activity android:name=".Devil" />
-        <activity android:name=".Batman" />
+        <activity android:name=".XXXActivity"></activity>
+        <activity android:name=".MutantiActivity" />
+        <activity android:name=".DevilActivity" />
+        <activity android:name=".BatmanActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

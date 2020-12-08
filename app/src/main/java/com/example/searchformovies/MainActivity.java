@@ -1,13 +1,10 @@
 package com.example.searchformovies;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
@@ -56,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     public void buttonbatman(View view) {
 
         tvbatman.setTextColor(Color.GREEN);
-        Intent batman= new Intent(this,Batman.class);
+        Intent batman= new Intent(this, BatmanActivity.class);
         startActivity(batman);
     }
 
@@ -64,20 +61,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttondevil(View view) {
         tvdevil.setTextColor(Color.GREEN);
-        Intent devil=new Intent(this,Devil.class);
+        Intent devil=new Intent(this, DevilActivity.class);
         startActivity(devil);
 
     }
 
     public void buttonmutanti(View view) {
         tvmutanti.setTextColor(Color.GREEN);
-        Intent mutanti =new Intent(this,Mutanti.class);
+        Intent mutanti =new Intent(this, MutantiActivity.class);
         startActivity(mutanti);
     }
 
     public void buttonxxx(View view) {
         tvxxx.setTextColor(Color.GREEN);
-        Intent xxx= new Intent(this,Mutanti.class);
+        Intent xxx= new Intent(this, MutantiActivity.class);
         startActivity(xxx);
 
     }

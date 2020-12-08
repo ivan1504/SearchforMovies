@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Devil extends AppCompatActivity {
+public class MutantiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_devil);
+        setContentView(R.layout.activity_mutanti);
     }
 
-    public void intendev(View view) {
-
+    public void intenmetan(View view) {
         String textMessage = "Our message";
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
