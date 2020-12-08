@@ -167,7 +167,7 @@
         android:minHeight="300dp"
         app:cardBackgroundColor="#A1C140"
         app:cardCornerRadius="20dp"
-        app:cardElevation="16dp"
+        app:cardElevation="20dp"
         app:cardPreventCornerOverlap="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
