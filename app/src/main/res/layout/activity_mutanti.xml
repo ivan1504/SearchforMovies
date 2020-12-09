@@ -28,14 +28,5 @@
         android:layout_marginBottom="229dp"
         android:text="@string/descripbat" />
 
-    <Button
-        android:id="@+id/buttonmutan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginBottom="164dp"
-        android:onClick="intenmetan"
-        android:text="@string/invite" />
+
 </RelativeLayout>

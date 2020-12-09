@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
 
@@ -21,17 +22,19 @@ public class MainActivity extends AppCompatActivity {
 
    @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+       super.onCreate(savedInstanceState);
+       setContentView(R.layout.activity_main);
+
+
+       tvbatman = findViewById(R.id.textbatman);
+       tvdevil=findViewById(R.id.textdevill);
+       tvmutanti = findViewById(R.id.textmutanti);
+       tvxxx=findViewById(R.id.textxxx);
+
+
+
    }
 
-      /*  tvbatman=findViewById(R.id.textbatman);
-        tvdevil=findViewById(R.id.textdevil);
-        tvmutanti=findViewById(R.id.textmutanti);
-        tvxxx=findViewById(R.id.textxxx);
-
-
-    }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         tvbatman=findViewById(R.id.textbatman);
-        tvdevil=findViewById(R.id.textdevil);
+        tvdevil=findViewById(R.id.textdevill);
         tvmutanti=findViewById(R.id.textmutanti);
         tvxxx=findViewById(R.id.textxxx);
     }
@@ -78,5 +81,5 @@ public class MainActivity extends AppCompatActivity {
         Intent xxx= new Intent(this, MutantiActivity.class);
         startActivity(xxx);
 
-    }*/
+    }
 }

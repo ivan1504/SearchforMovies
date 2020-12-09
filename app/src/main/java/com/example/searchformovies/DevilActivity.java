@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 public class DevilActivity extends AppCompatActivity {
@@ -14,21 +16,31 @@ public class DevilActivity extends AppCompatActivity {
         setContentView(R.layout.activity_devil);
     }
 
-    public void intendev(View view) {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mainmenu,menu);
+        return true;
+    }
 
-        String textMessage = "Our message";
-        Intent sendIntent = new Intent();
-        sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, textMessage);
-        sendIntent.setType("text/plain");
+    @Override
+    public boolean onOptionsItemSelected( MenuItem item) {
+        if (item.getItemId() == R.id.invent) {
+            String textMessage = "Our message";
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, textMessage);
+            sendIntent.setType("text/plain");
 
-        String title = getResources().getString(R.string.chooser_title);
+            String title = getResources().getString(R.string.chooser_title);
 
-        Intent chooser = Intent.createChooser(sendIntent, title);
+            Intent chooser = Intent.createChooser(sendIntent, title);
 
 
-        if (sendIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(chooser);
+            if (sendIntent.resolveActivity(getPackageManager()) != null) {
+                startActivity(chooser);
+            }
+
         }
+        return super.onOptionsItemSelected(item);
     }
 }

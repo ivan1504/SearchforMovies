@@ -32,18 +32,6 @@
         tools:ignore="DuplicateIds,MissingConstraints"
         tools:layout_editor_absoluteY="196dp" />
 
-    <Button
-        android:id="@+id/buttonbat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="121dp"
-        android:layout_marginBottom="208dp"
-        android:onClick="intenbatm"
-        android:text="@string/invite"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="348dp" />
+
 
 </RelativeLayout>
