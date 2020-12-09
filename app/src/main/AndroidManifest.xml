@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.searchformovies">
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SearchForMovies">
-        <activity android:name=".XXXActivity"></activity>
+        <activity android:name=".XXXActivity" />
         <activity android:name=".MutantiActivity" />
         <activity android:name=".DevilActivity" />
         <activity android:name=".BatmanActivity" />

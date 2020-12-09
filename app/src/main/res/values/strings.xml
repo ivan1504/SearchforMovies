@@ -9,4 +9,18 @@
     <string name="invite">Пригласить друга</string>
     <string name="chooser_title">Share</string>
     <string name="descripbat">супергеройский боевик с элементами неонуара режиссёра Кристофера Нолана по комиксам DC Comics, вышедший в 2005 году. Является первой частью новой трилогии о Бэтмене, рассказывающей о его юности и становлении супергероем. Главную роль в фильме сыграл британо-американский актёр Кристиан Бейл.</string>
+    <string name="title_activity_main_draver">MainDraver</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Главный экран</string>
+    <string name="about">О приложении</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="search_for_movies">Search for Movies</string>
 </resources>
