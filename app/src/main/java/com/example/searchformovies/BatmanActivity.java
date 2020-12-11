@@ -1,13 +1,11 @@
 package com.example.searchformovies;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 public class BatmanActivity extends AppCompatActivity {
 
@@ -19,13 +17,13 @@ public class BatmanActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.mainmenu,menu);
+        getMenuInflater().inflate(R.menu.main,menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected( MenuItem item) {
-        if (item.getItemId() == R.id.invent) {
+        if (item.getItemId() == R.id.action_settings) {
             String textMessage = "Our message";
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);

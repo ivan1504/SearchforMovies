@@ -8,12 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SearchForMovies">
+        android:theme="@style/Theme.MyDrawer">
         <activity android:name=".XXXActivity" />
         <activity android:name=".MutantiActivity" />
         <activity android:name=".DevilActivity" />
         <activity android:name=".BatmanActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyDrawer.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
