@@ -22,7 +22,7 @@
                 android:layout_height="284dp"
                 android:layout_marginTop="10dp"
                 android:minHeight="300dp"
-                app:cardBackgroundColor="#392650"
+                app:cardBackgroundColor="#EFEDE9"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="16dp"
                 app:cardPreventCornerOverlap="true"
@@ -39,39 +39,24 @@
                     android:id="@+id/textbatman"
                     android:layout_width="112dp"
                     android:layout_height="38dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="140dp"
-                    android:layout_marginTop="10dp"
+                    style="@style/textstyle"
                     android:text="@string/batman"
-                    android:textColor="#D31E1E"
-                    android:textSize="24sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="MissingConstraints" />
+                    tools:ignore="MissingConstraints"
+                     />
 
                 <ImageView
                     android:id="@+id/imagebatman"
-                    android:layout_width="328dp"
+                    android:layout_width="145dp"
                     android:layout_height="196dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="28dp"
-                    android:layout_marginTop="40dp"
-                    android:contentDescription="@string/todo"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                   style="@style/viewstyle"
                     app:srcCompat="@drawable/batman"
                     tools:ignore="MissingConstraints" />
 
                 <Button
                     android:id="@+id/buttonbatman"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="140dp"
-                    android:layout_marginTop="240dp"
+                    style="@style/buttonstyle"
                     android:onClick="buttonbatman"
                     android:text="@string/detali"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
                     tools:ignore="MissingConstraints" />
 
             </androidx.cardview.widget.CardView>
@@ -81,7 +66,7 @@
                 android:layout_height="282dp"
                 android:layout_marginTop="10dp"
                 android:minHeight="300dp"
-                app:cardBackgroundColor="#2F5C53"
+                app:cardBackgroundColor="#EFEDE9"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="16dp"
                 app:cardPreventCornerOverlap="true"
@@ -93,39 +78,23 @@
                     android:id="@+id/textdevill"
                     android:layout_width="112dp"
                     android:layout_height="38dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="170dp"
-                    android:layout_marginTop="10dp"
                     android:text="@string/devil"
-                    android:textColor="#D31E1E"
-                    android:textSize="24sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                    style="@style/textstyle"
                     tools:ignore="MissingConstraints" />
 
                 <ImageView
                     android:id="@+id/imagedevil"
-                    android:layout_width="328dp"
+                    android:layout_width="155dp"
                     android:layout_height="196dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginTop="40dp"
-                    android:contentDescription="@string/todo"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                    style="@style/viewstyle"
                     app:srcCompat="@drawable/devil"
                     tools:ignore="MissingConstraints" />
 
                 <Button
                     android:id="@+id/buttondevil"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="140dp"
-                    android:layout_marginTop="240dp"
+                    style="@style/buttonstyle"
                     android:onClick="buttondevil"
                     android:text="@string/detali"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
                     tools:ignore="MissingConstraints" />
 
             </androidx.cardview.widget.CardView>
@@ -135,7 +104,7 @@
                 android:layout_height="282dp"
                 android:layout_marginTop="10dp"
                 android:minHeight="300dp"
-                app:cardBackgroundColor="#DD9261"
+                app:cardBackgroundColor="#EFEDE9"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="16dp"
                 app:cardPreventCornerOverlap="true"
@@ -147,39 +116,23 @@
                     android:id="@+id/textmutanti"
                     android:layout_width="112dp"
                     android:layout_height="38dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="160dp"
-                    android:layout_marginTop="10dp"
                     android:text="@string/mutanti"
-                    android:textColor="#D31E1E"
-                    android:textSize="24sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                    style="@style/textstyle"
                     tools:ignore="MissingConstraints" />
 
                 <ImageView
                     android:id="@+id/imagemutanti"
-                    android:layout_width="328dp"
+                    android:layout_width="154dp"
                     android:layout_height="196dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginTop="40dp"
-                    android:contentDescription="@string/todo"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                   style="@style/viewstyle"
                     app:srcCompat="@drawable/mutanti"
                     tools:ignore="MissingConstraints" />
 
                 <Button
                     android:id="@+id/buttonmutanti"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="140dp"
-                    android:layout_marginTop="240dp"
+                    style="@style/buttonstyle"
                     android:onClick="buttonmutanti"
                     android:text="@string/detali"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
                     tools:ignore="MissingConstraints" />
 
             </androidx.cardview.widget.CardView>
@@ -189,7 +142,7 @@
                 android:layout_height="282dp"
                 android:layout_marginTop="10dp"
                 android:minHeight="300dp"
-                app:cardBackgroundColor="#0C4571"
+                app:cardBackgroundColor="#EFEDE9"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="16dp"
                 app:cardPreventCornerOverlap="true"
@@ -201,39 +154,23 @@
                     android:id="@+id/textxxx"
                     android:layout_width="112dp"
                     android:layout_height="38dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="170dp"
-                    android:layout_marginTop="10dp"
+                    style="@style/textstyle"
                     android:text="@string/xxx"
-                    android:textColor="#D31E1E"
-                    android:textSize="24sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="MissingConstraints" />
 
                 <ImageView
                     android:id="@+id/imagexxx"
-                    android:layout_width="328dp"
+                    style="@style/viewstyle"
+                    android:layout_width="159dp"
                     android:layout_height="196dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginTop="40dp"
-                    android:contentDescription="@string/todo"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/xxx"
                     tools:ignore="MissingConstraints" />
 
                 <Button
                     android:id="@+id/buttonxxx"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="140dp"
-                    android:layout_marginTop="240dp"
+                    style="@style/buttonstyle"
                     android:onClick="buttonxxx"
                     android:text="@string/detali"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
                     tools:ignore="MissingConstraints" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>

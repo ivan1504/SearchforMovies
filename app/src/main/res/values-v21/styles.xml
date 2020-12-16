@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fab">
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginBottom">64dp</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:backgroundTint">@color/fabBackground</item>
+    </style>
+
+</resources>
